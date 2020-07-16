@@ -1,35 +1,11 @@
 @charset "UTF-8";
-/*!                                                                            google id UA-172474179-1
-* Start Bootstrap - Grayscale v6.0.2 (https://startbootstrap.com/themes/grayscale)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v4.5.0 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #64a19d;
-  --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #000000;
   --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
   --black: #000000;
@@ -10110,6 +10086,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-black {
   color: #000000 !important;
+  font-size: 25px;
 }
 
 a.text-black:hover, a.text-black:focus {
@@ -10391,14 +10368,14 @@ body {
 }
 
 .about-section {
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 .about-section p {
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
 }
 
 .music-section {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 .music-section .featured-text {
   padding: 2rem;
@@ -10425,7 +10402,7 @@ body {
 }
 
 .projects-section {
-  padding: 5rem 0;
+  padding: 0rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -10450,27 +10427,9 @@ body {
     width: 30%;
   }
 }
-.signup-section {
-  padding: 5rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-.signup-section .form-inline input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
 
 .contact-section {
-  padding-top: 1rem;
+  padding-top: 5rem;
 }
 .contact-section .card {
   border: 0;
